@@ -5,7 +5,8 @@ RUN apk add --no-cache \
   git \
   openssh-client \
   bind-tools \
-  jq
+  jq \
+  openssl
 
 RUN mkdir -p ~/.ssh \
   && chmod 700 ~/.ssh \
